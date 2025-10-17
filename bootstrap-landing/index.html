@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Assistant Pro</title>
+    <meta name="description" content="AI Assistant Pro — ваш умный помощник для работы и жизни.">
+    <meta name="author" content="AI Assistant Pro Team">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #f21202, #4af202); //
+            color: #fff;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .about {
+            padding: 60px 0;
+        }
+
+        .features {
+            background: #f8f9fa;
+            padding: 60px 0;
+        }
+
+        footer {
+            background: #212529;
+            color: #ccc;
+            padding: 30px 0;
+        }
+
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">AI Assistant Pro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">О продукте</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Преимущества</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>AI Assistant Pro</h1>
+            <p class="lead mt-3 mb-4">Ваш персональный ИИ помощник.</p> <!-- -->
+            <button class="btn btn-light btn-lg">Попробовать бесплатно</button>
+        </div>
+    </section>
+
+    <!-- Описание продукта -->
+    <section id="about" class="about">
+        <div class="container text-center">
+            <h2 class="mb-4">О продукте</h2>
+            <p class="text-muted fs-5 mx-auto" style="max-width: 700px;">
+                AI Assistant Pro — это интеллектуальная система, созданная для автоматизации повседневных задач.
+                Она помогает в анализе данных, написании текстов и планировании, экономя ваше время и повышая продуктивность.
+            </p>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="text-center mb-5">Преимущества</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4">
+                        <div class="card-body">
+                            <i class="bi bi-speedometer display-5 text-primary mb-3"></i> <!-- -->
+                            <h5 class="card-title">Быстродействие</h5>
+                            <p class="card-text text-muted">
+                                Выполняет сложные задачи за секунды — от анализа до генерации контента.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4">
+                        <div class="card-body">
+                            <i class="bi bi-shield-lock display-5 text-success mb-3"></i>
+                            <h5 class="card-title">Безопасность</h5>
+                            <p class="card-text text-muted">
+                                Мы заботимся о конфиденциальности — ваши данные остаются только у вас.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4">
+                        <div class="card-body">
+                            <i class="bi bi-brain display-5 text-warning mb-3"></i>
+                            <h5 class="card-title">Интеллект</h5>
+                            <p class="card-text text-muted">
+                                Искусственный интеллект адаптируется под ваш стиль общения и задачи.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Блок отзывов -->
+<section id="testimonials" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Отзывы наших пользователей</h2>
+    <div class="row g-4">
+      
+      <!-- Отзыв 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-body text-center p-4">
+            <img src="https://via.placeholder.com/80" alt="User 1" class="rounded-circle mb-3">
+            <h5 class="card-title mb-1">Анна Иванова</h5>
+            <p class="text-muted small mb-3">Маркетолог</p>
+            <p class="card-text text-secondary">
+              “AI Assistant Pro полностью изменил мой подход к работе — теперь отчёты и тексты создаются в два раза быстрее!”
+            </p>
+            <div class="text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Отзыв 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-body text-center p-4">
+            <img src="https://via.placeholder.com/80" alt="User 2" class="rounded-circle mb-3">
+            <h5 class="card-title mb-1">Игорь Смирнов</h5>
+            <p class="text-muted small mb-3">Разработчик</p>
+            <p class="card-text text-secondary">
+              “Интегрировал помощника в рабочие процессы — теперь рутинные задачи занимают считанные минуты.”
+            </p>
+            <div class="text-warning">
+              ★★★★☆
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Отзыв 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-body text-center p-4">
+            <img src="https://via.placeholder.com/80" alt="User 3" class="rounded-circle mb-3">
+            <h5 class="card-title mb-1">Елена Ковалёва</h5>
+            <p class="text-muted small mb-3">Предприниматель</p>
+            <p class="card-text text-secondary">
+              “Продукт действительно экономит время и помогает принимать более взвешенные решения. Очень рекомендую!”
+            </p>
+            <div class="text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Подвал -->
+    <footer id="footer">
+        <div class="container text-center">
+            <ul class="nav justify-content-center mb-3">
+                <li class="nav-item"><a class="nav-link px-2 text-light" href="#hero">Главная</a></li>
+                <li class="nav-item"><a class="nav-link px-2 text-light" href="#about">О продукте</a></li>
+                <li class="nav-item"><a class="nav-link px-2 text-light" href="#features">Преимущества</a></li>
+            </ul>
+            <p class="mb-0 text-secondary">&copy; 2025 AI Assistant Pro. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
